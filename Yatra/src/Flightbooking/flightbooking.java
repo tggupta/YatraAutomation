@@ -45,10 +45,10 @@ public class flightbooking extends Excel {
 		driver.manage().timeouts().implicitlyWait(7000,TimeUnit.SECONDS);	
 			
 //		Thread.sleep(4000);
-			
+			//<tg> Do we need - Thread.sleep ???
 /*		WebDriverWait wait=new WebDriverWait(driver, 5);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='BE_flight_flsearch_btn']")));
-		*/	
+		*/	//<tg> Can we remove Explicitwait
 /*		Wait<WebDriver> wait=new FluentWait<WebDriver>(driver)
 				.withTimeout(40, TimeUnit.SECONDS)
 				.pollingEvery(5, TimeUnit.SECONDS)
