@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
 public class flightbooking extends Excel {
 
 	WebDriver driver=null;
-
+		//this is just a sample
 	@BeforeMethod
 	public void beforebookticket()
 	{
