@@ -17,7 +17,7 @@ public class random {
 		FirefoxProfile fp=new FirefoxProfile();
 		fp.setPreference("dom.webnotifications.enabled", false);
 		driver=new FirefoxDriver(fp);
-	}+
+	}
 	}
 	
 	@Test
